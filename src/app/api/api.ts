@@ -1,6 +1,6 @@
-const rapid_api_key = import.meta.env.RAPID_API_KEY;
-const openweather_token = import.meta.env.OPENWEATHER_TOKEN;
-
+const rapid_api_key = import.meta.env.VITE_REACT_RAPID_API_KEY;
+const openweather_token = import.meta.env.VITE_REACT_OPENWEATHER_TOKEN;
+console.log(rapid_api_key);
 const url = 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities';
 const geoApiOptions = {
   method: 'GET',
