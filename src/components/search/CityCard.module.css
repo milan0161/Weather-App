@@ -1,0 +1,25 @@
+.city_card {
+  width: 100%;
+  height: 30px;
+  border-collapse: collapse;
+  border: 1px solid rgb(48, 103, 139);
+  border-radius: 5px;
+  margin: 2px 0;
+  background-color: rgba(81, 127, 158, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.city_card_btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  padding-left: 10px;
+  color: whitesmoke;
+  font-size: 15px;
+}

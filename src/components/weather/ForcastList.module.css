@@ -1,0 +1,15 @@
+.forcast_list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .forcast_list {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}

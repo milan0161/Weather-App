@@ -1,0 +1,35 @@
+.forcast_item {
+  width: 20%;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.forcast_item_date_div {
+  text-align: center;
+  flex: 1;
+  margin: 10px 0;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.forcast_item_bot {
+  display: flex;
+  flex: 2;
+
+  align-items: center;
+}
+.forcast_item_bot img {
+  width: 100px;
+  height: 100px;
+  flex: 1;
+}
+.min_max_div {
+  text-align: center;
+  flex: 1;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .forcast_item {
+    width: 50%;
+  }
+}
