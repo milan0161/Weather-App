@@ -1,12 +1,15 @@
+const rapid_api_key = import.meta.env.RAPID_API_KEY;
+const openweather_token = import.meta.env.OPENWEATHER_TOKEN;
+
 const url = 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities';
 const geoApiOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': 'b2272553bcmshbe0964e8d2d1334p1a8841jsn6117ffa4406a',
+    'X-RapidAPI-Key': `${rapid_api_key}`,
     'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com',
   },
 };
-const apiKey = '4cf400c58a453f66175854fee1dbddb4';
+const apiKey = openweather_token;
 
 export const fetchOptions = async (namePrefix?: string) => {
   try {
