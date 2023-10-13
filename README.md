@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather app is simple SP web application where you can check current temperature in Celsius as well as see the next five days forecast
+## About application
 
-Currently, two official plugins are available:
+Application was created using React with TypeScript. Rapid API was used to get the longitude and latitude of the chosen city alongside with OpenWeather API to get current temperature and forecast.
+## To start application
+- Clone repository
+- Inside root folder create .env file
+- Create three constants named VITE_REACT_OPENWEATHER_TOKEN, VITE_REACT_RAPID_API_KEY and VITE_REACT_BASE_URL="https://wft-geo-db.p.rapidapi.com/v1/geo/cities"
+- Assign your open weather token and rapid api key as values to VITE_REACT_OPENWEATHER_TOKEN and VITE_REACT_RAPID_API_KEY
+- Open terminal and type "yarn"
+- Type "yarn dev"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##Screenshots
+![Weather app](https://github.com/milan0161/Weather-App/assets/113298158/0bbc8333-fb27-441f-8dfe-14504ca890c0)
+![Search](https://github.com/milan0161/Weather-App/assets/113298158/8bcfb377-29e0-40b7-a744-af405fde076f)
